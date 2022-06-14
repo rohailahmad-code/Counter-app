@@ -1,0 +1,37 @@
+h1{
+    padding: 10px 50px;
+    border: 1px solid crimson;
+    border-radius: 10px;
+}
+h2{
+    font-size: 40px;
+    color: crimson;
+}
+.Counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    width: 30%;
+    margin: 10px auto;
+    border: 3px solid crimson;
+    border-radius: 20px;
+    padding: 10px;
+}
+@media screen and (max-width: 900px){
+    .Counter {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 640px){
+    .Counter {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 464px){
+    .Counter {
+        width: 90%;
+    }
+}
